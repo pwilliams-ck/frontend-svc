@@ -4,7 +4,7 @@ type HeaderProps = {
   label: string;
 };
 
-export const Header = ({ label }: HeaderProps) => {
+export const HomeHeader = ({ label }: HeaderProps) => {
   return (
     <div className="w-full flex-col items-center justify-center">
       <h1 className="flex text-3xl font-semibold">
@@ -16,4 +16,4 @@ export const Header = ({ label }: HeaderProps) => {
   );
 };
 
-export default Header;
+export default HomeHeader;

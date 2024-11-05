@@ -9,7 +9,7 @@ export default function Home() {
         <LoginLanding />
         <AlertPopup
           title="Heads up!"
-          description="Cloudkey Tools is currently in beta and is actively being worked on!"
+          description="CKP Tools is currently in beta and is actively being worked on!"
           icon={<LucideConstruction className="h-6 w-6" />}
         />
       </div>
