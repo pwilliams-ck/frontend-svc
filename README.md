@@ -26,6 +26,18 @@ Install dependencies.
 bun i
 ```
 
+### Env Variables
+
+Create a file name `.env.local` and paste this snippet, be sure to change the
+values to your environment. You need one VCD cell running to make API calls.
+
+```bash
+VCD_HOST=<string>
+VCD_USER=<string>
+VCD_PW=<string>
+VCD_VERSION=<string>
+```
+
 ### Start application
 
 For dev mode.
