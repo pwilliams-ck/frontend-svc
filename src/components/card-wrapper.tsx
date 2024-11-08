@@ -6,11 +6,12 @@ import {
   CardHeader,
   CardFooter,
 } from "@/components/ui/card";
-import { HomeHeader } from "@/components/header";
+import { Header } from "@/components/header";
 import { BackButton } from "@/components/back-button";
 
 type CardWrapperProps = {
   children: React.ReactNode;
+  heading: string;
   headerLabel: string;
   backButtonLabel: string;
   backButtonHref: string;
@@ -19,6 +20,7 @@ type CardWrapperProps = {
 
 export const CardWrapper = ({
   children,
+  heading,
   headerLabel,
   backButtonLabel,
   backButtonHref,
@@ -28,7 +30,7 @@ export const CardWrapper = ({
     <Card className="w-[400px] shadow-md bg-white/45 dark:bg-black/45">
       <CardHeader>
         <div className="flex">
-          <HomeHeader label={headerLabel} />
+          <Header heading={heading} label={headerLabel} />
         </div>
       </CardHeader>
       <CardContent>{children}</CardContent>

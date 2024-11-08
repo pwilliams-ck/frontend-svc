@@ -27,24 +27,19 @@ export function MainNav({
       ),
     },
     {
-      href: `/tools`,
-      label: "Tools",
-      active: pathname === `/tools`,
+      href: `/vcd-tools`,
+      label: "VCD Tools",
+      active: pathname === `/vcd-tools`,
     },
     {
-      href: `/testing`,
-      label: "Testing",
-      active: pathname === `/testing`,
+      href: `/docker-microservices`,
+      label: "Docker Microservices",
+      active: pathname === `/docker-microservices`,
     },
     {
-      href: `/microservices`,
-      label: "Microservices",
-      active: pathname === `/microservices`,
-    },
-    {
-      href: `/contact-us`,
-      label: "Contact Us",
-      active: pathname === `/contact-us`,
+      href: `/k8s-microservices`,
+      label: "k8s Microservices",
+      active: pathname === `/k8s-microservices`,
     },
   ];
 

@@ -129,7 +129,7 @@ export default function MicroservicesTest() {
     <div className="container mx-auto px-4">
       <div className="row">
         <div className="col">
-          <h1 className="text-3xl font-bold mt-5">Test Microservices</h1>
+          <h1 className="text-3xl font-bold mt-5">Test Docker Microservices</h1>
           <hr className="my-4" />
 
           <div className="space-x-4">

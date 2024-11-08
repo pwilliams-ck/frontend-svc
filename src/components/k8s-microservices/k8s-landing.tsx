@@ -2,22 +2,21 @@ import { CardWrapper } from "@/components/card-wrapper";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
-export const LoginLanding = () => {
+export const K8sLanding = () => {
   return (
     <CardWrapper
-      heading="Microservice Hub"
-      headerLabel="A simple web interface for CloudKey Platform microservices and tools."
+      heading="k8s Testing"
+      headerLabel="A simple web interface for testing k8s microservices."
       backButtonLabel="About Cloudkey"
       backButtonHref="https://cloudkey.io"
     >
       <div className="flex justify-between my-4">
-        <p>
-          The CloudKey Platform tools and deployment suite ensures your
-          services... serve 🚀
+        <p className="pr-2">
+          Check out our VCD tools while we build our kubernetes cluster 🚧🚧
         </p>
         <Link href="/vcd-tools">
           <Button className="mt-1 ml-auto" size="lg">
-            Let&apos;s Go
+            Tools
           </Button>
         </Link>
       </div>

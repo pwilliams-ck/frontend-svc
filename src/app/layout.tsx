@@ -38,10 +38,15 @@ export default function RootLayout({
           enableSystem={false}
           storageKey="ckc-theme"
         >
-          <Navbar />
-          <Toaster />
+          <Toaster
+            theme="system"
+            invert
+            visibleToasts={9}
+            richColors
+            closeButton
+            offset={48}
+          />
           {children}
-          <Footer />
         </ThemeProvider>
       </body>
     </html>
